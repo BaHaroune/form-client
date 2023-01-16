@@ -14,8 +14,8 @@ function App() {
         <Link className='hidden' to='info'>Info</Link>
 
         <Routes>
-          <Route path='/' element={<Form/>}></Route>
-          <Route path='info' element={<Info/>}></Route>
+          <Route path='/form-client' element={<Form/>}></Route>
+          <Route path='form-client/info' element={<Info/>}></Route>
         </Routes>
       </Router>
   );
